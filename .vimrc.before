@@ -1,0 +1,10 @@
+let mapleader = ","
+color desert 
+set nobackup
+set noswapfile
+set nowrap
+" Disable Now enterin EX mode
+map Q <ESC>
+" make Python follow PEP8 but override limit on length of line which is
+" ridiculously annoying
+au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=500

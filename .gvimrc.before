@@ -1,0 +1,28 @@
+let mapleader = ","
+set guifont=PragmataPro:h14
+inoremap jj <ESC>
+nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+set columns=150
+set fuoptions=
+macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-F>
+set virtualedit=all
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set background=light
+colorscheme getafe
+au FileType python                                   set expandtab
+set visualbell
+set nobackup
+set noswapfile
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader><Leader> :ZoomWin<CR>
+"map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+map <buffer> <Leader>p :Mm <CR>
+" Disable Now entering ex mode
+map Q <ESC>
